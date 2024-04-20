@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function Register() {
+
+    const [formData, setFormData] = useState()
+
   return (
-    <div>
-      
-    </div>
+    <div>Register</div>
   )
 }
